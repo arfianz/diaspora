@@ -1,0 +1,9 @@
+#!/bin/bash --login
+shopt -s expand_aliases
+
+export RAILS_ENV=production 
+export DB=postgres 
+
+cd /home/diaspora/diaspora
+
+./script/server 
